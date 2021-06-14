@@ -3,9 +3,12 @@ import Head from 'next/head'
 export default function HeadObject({children}) {
     const title = "The Perfect Next.js Theme";
     const description = "This is the perfect Next.js theme that you should use instead of create-next-app.";
+    const searchBarColor = "#ffffff"; // This is your Safari 15 Search Bar Color in Light Mode
+    //const darkSearchBarColor = "#000000"; // This is your Safari 15 Search Bar Color in Dark Mode (optional)
     const keywords = "put some fun keywords here";
     const author = "Sarthak Mohanty";
     const twitter = "@sarthaktexas";
+    const url = "http://localhost:3000"; // This is your og:url or domain (optional but recommended)
     //const image = "/ogimage.png"; // This is your OpenGraph image
     return (
         <Head>
@@ -16,7 +19,9 @@ export default function HeadObject({children}) {
             <meta name="description" content={description} />
             <meta name="keywords" content={keywords} />
             <meta name="author" content={author} />
-            <meta property="og:url" content="put it in this quotes" /> {/* This is where you put the domain */}
+            <meta name="theme-color" content={searchBarColor} media="(prefers-color-scheme: light)" />
+            {darkSearchBarColor ? <meta name="theme-color" content={darkSearchBarColor} media="(prefers-color-scheme: dark)" /> : ''}
+            {url ? <meta property="og:url" content={url} /> : ''}
             <meta property="og:type" content="website" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
