@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 html.dark {
+    color: #ffffff;
     background-color: #000000;
 }
