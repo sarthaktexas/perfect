@@ -8,5 +8,6 @@ The best Next.js boilerplate ever.
 - `framer-motion` - for making interactive components and eye-catching animations
 - `react-icons` - for including your favorite icon packs without increasing bundle size significantly. Tree shaking included.
 - `classnames` - for conditionally applying classes to components
+- `react-wrap-balancer` - for balancing text widths for titles and paragraphs
 
 &copy; 2021 Sarthak Mohanty. Licensed under the [Unlicense](LICENSE) from Mozilla.
