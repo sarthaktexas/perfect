@@ -7,9 +7,12 @@ html.dark {
     background-color: #000000;
 }
 
+/* Fixes Tailwind h-screen on iPhones */
 @supports (-webkit-touch-callout: none) {
     .h-screen {
       height: -webkit-fill-available;
     }
   }
 
+/* Fixes outline style for inputs on Safari */
+input:focus { outline: none; }
