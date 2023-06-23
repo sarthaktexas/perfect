@@ -7,5 +7,6 @@ The best Next.js boilerplate ever.
   - `fetcher.js` so you don't have to keep writing return functions
 - `framer-motion` - for making interactive components and eye-catching animations
 - `react-icons` - for including your favorite icon packs without increasing bundle size significantly. Tree shaking included.
+- `classnames` - for conditionally applying classes to components
 
 &copy; 2021 Sarthak Mohanty. Licensed under the [Unlicense](LICENSE) from Mozilla.
