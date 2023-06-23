@@ -6,3 +6,10 @@ html.dark {
     color: #ffffff;
     background-color: #000000;
 }
+
+@supports (-webkit-touch-callout: none) {
+    .h-screen {
+      height: -webkit-fill-available;
+    }
+  }
+
