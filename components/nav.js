@@ -21,10 +21,12 @@ export default function Nav() {
                 <ul className={`mx-auto sm:mx-0 flex flex-row space-x-5`}>
                     {links.map(({ href, label }) => (
                         <li className="self-center" key={`${href}${label}`}>
-                            <Link href={href}>
-                                <a className={`font-inter px-4 py-2 rounded hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10`}>
-                                    {label}
-                                </a>
+                            <Link
+                                href={href}
+                                className={`font-inter px-4 py-2 rounded hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10`}>
+
+                                {label}
+
                             </Link>
                         </li>
                     ))}
@@ -41,5 +43,5 @@ export default function Nav() {
                 </ul>
             </ul>
         </nav>
-    )
+    );
 }
