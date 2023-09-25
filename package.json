@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-wrap-balancer": "^1.1.0",
-    "swr": "^2.2.1"
+    "swr": "^2.2.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
