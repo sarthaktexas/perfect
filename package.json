@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "classnames": "^2.3.2",
+    "classnames": "^2.5.1",
     "framer-motion": "^10.16.1",
     "next": "^14.0.4",
     "next-themes": "^0.2.1",
