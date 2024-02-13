@@ -9,5 +9,6 @@ The best Next.js boilerplate ever.
 - `react-icons` - for including your favorite icon packs without increasing bundle size significantly. Tree shaking included.
 - `classnames` - for conditionally applying classes to components
 - `react-wrap-balancer` - for balancing text widths for titles and paragraphs
+- `tailwind-merge` - for merging Tailwind class names
 
 &copy; 2021 Sarthak Mohanty. Licensed under the [Unlicense](LICENSE) from Mozilla.
